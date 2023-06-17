@@ -1,0 +1,320 @@
+Atova Technology
+Linux for DevOps & Cloud Engineer
+History of Linux
+Why Linux?
+Linux & DevOps
+Introduction to the Linux
+Linux Kernel & Boot Sequence
+Kernel Space and User Space
+Working with Linux Filesystems and Hierarchy
+Linux Core Concepts
+Package Management
+Package Management Distribution
+RPM and YUM
+DPKG and APT
+APT Vs APT GET
+Essential Command
+Introduction to Shell
+Log into local & remote graphical and text mode consoles
+Read, Write and use System Documentation
+Create, Delete, Copy, and Move Files and Directories
+Create and manage hard links & soft links
+List, set, and change standard file permissions
+Search for files
+Compare and manipulate file content
+Search file using Grep
+Analyse text using basic regular expressions
+Extended Regular Expressions
+Archive, backup, compress, unpack, and uncompress files
+Compress and Uncompress files
+Shell Script Introduction Example, etc
+User and Group Management
+Create, delete, and modify local user accounts
+Create, delete, and modify local groups and group memberships
+Configure user resource limits and user privileges
+Manage access to the root account
+Configuring network connections and firewalls
+Configure networking and hostname resolution statically or dynamically
+Start, stop, and check the status of network services
+Statically route IP traffic
+Synchronise time using other network peers
+Ufw configure/Firewall
+Atova Technology
+Service Configuration
+Configure SSH servers and clients
+SSH Key Pair
+Configure an HTTP server
+Configure Nginx Web Server
+Configure Nginx Reverse Proxy
+Configure a database server
+Storage in Linux
+Disk Partitions
+File Systems in Linux
+NFS Filesystem
+LVM
+Conclusion
+Md Nasir uddin
+DevOps & Sr. System Administrator
+CKA,NSE4,CCNA,JNCIA,RHCSA,RHCE
+Atova Technology
+Docker Certified Associate (DCA)
+Introduction
+Docker Overview
+What is Docker? And Why?
+What are Containers?
+History of Containers
+Why Docker & Containers?
+Virtual Machines vs Docker Containers
+Docker Engine
+Getting started with Docker
+Docker Architecture
+Setup and Install Docker
+Docker container lifecycle
+Docker Commands
+Basic Container Operations
+Interacting with a Running Container
+Inspecting a Container
+Stopping and Removing a Container
+Docker Container Operations
+Setting a Container Hostname
+Restart Policies
+Port Binding
+Copying Contents into Container & Container to host
+Docker Compose
+Containerized Nginx, PostgreSQL, MySQL, MongoDB, PhpMyadmin
+Publishing Ports
+Docker Image Management
+Docker Image Registry
+Image Addressing Convention
+Authenticating to Registries
+Removing a Docker Image
+Inspecting a Docker Image
+Save and Load Images
+Image Registry and Operations
+Building a custom image
+Build HTTPD & Nginx image
+Understanding the Docker Hub
+How to push images to the Docker Hub
+Docker commit method
+Build Contexts
+COPY vs ADD
+CMD vs Entrypoint
+Dockerfile Best Practices
+Atova Technology
+Docker Engine Security
+Docker Daemon Security
+Namespaces and Capabilities
+CGroups
+Resource Limits CPU
+Resource Limits Memory
+Resource Limits
+Docker Engine Networking
+Docker Networking
+Namespaces
+Process level isolation
+Network Namespace
+Networking commands
+Docker Engine Storage
+Docker Storage
+Docker Volume
+Docker Volumes and Stateful Persistence
+Anonymous Volumes
+Named Volumes
+Bind Mounts
+Sharing volumes between containers
+Docker Swarm
+Section Introduction
+Container Orchestration Introduction
+Swarm Architecture
+Swarm Setup 2 node Cluster
+Swarm Operations
+Scale your app to run on more nodes
+Distribute your app across a cluster
+Swarm High Availability
+Kubernetes
+Kubernetes Introduction
+Kubernetes Architecture
+PODs
+PODs with YAML
+Disaster Recovery
+Md Nasir uddin
+DevOps & Sr. System Administrator
+CKA,NSE4,CCNA,JNCIA,RHCSA,RHCE
+Atova Technology
+Git and GitHub for DevOps Engineer
+Getting Started
+About Version Control
+A Short History of Git
+What is Git?
+GitHub
+Account Setup and Configuration
+Contributing and Maintaining a Project
+Managing an organisation
+Git Basic
+Git workflow
+Git Init, Git Add, Git Commit
+Git Clone, Git Ignore, Git Fork
+Git Repository
+Git Index, Git Head
+Git Origin Master & Git Remote
+Getting a Git Repository
+Viewing the Commit History
+Working with Remotes
+Working with Git Tags and Release
+Undoing changes
+Git Checkout
+Git Revert , Git Reset & Git Rm
+Git Cherry-pick
+Git Branching
+Branches in a Nutshell
+Basic Branching and Merging
+Branching Workflows
+Branch Management & Remote Branches
+Git on the Server
+Getting Git on a Server
+Generating Your SSH Public Key
+Generating Token
+Setting Up the Server
+GitLab & GitHub
+Distributed Git
+Distributed Workflows
+Contributing and Maintaining a Project
+Git Push & Pull Git Fetch, Rebase
+Git Best Practices
+Micro commit & Meaningful commit
+Git Standard Workflow
+Github Pages for your Personal Resume
+Md Sanaullah Asif
+TechLead & Sr. Developer
+Atova Technology
+Certified Kubernetes Administrator (CKA)
+Pre-Requisites
+Linux
+Docker
+YAML
+Setting up a basic lab environment with VMware Workstation
+Course Introduction
+Core Concepts
+What is the CKA Exam
+Why Get Certified
+CKA Exam Domains
+Core Concepts
+Cluster Architecture
+ETCD & ETCD in Kubernetes
+Kube-API Server
+Kube-Controller Manager
+Kube-Scheduler
+Kubelet & Kube-Proxy
+Kubernetes and Container Fundamentals
+Kubernetes Installation
+Installation Options
+MiniKube & Install Minikube
+Clusters & Kubectl Basics
+Getting Started
+Building a Kubernetes Cluster
+Building a Kubernetes 1.26 Cluster with kubeadm
+Using Namespaces in K8s
+Working with Kubernetes Namespaces
+Pods, ReplicaSets, Deployments
+Namespaces, Services, Services Cluster IP
+Scheduling
+Manual Scheduling
+Labels and Selectors
+Taints and Tolerations
+Node Selectors & Node Affinity
+Taints and Tolerations vs Node Affinity
+Resource Limits
+DaemonSets
+Static Pods
+Multiple Schedulers
+Configuring Kubernetes Schedulers
+Logging and Monitoring
+Logging and Monitoring Section Introduction
+Monitor Cluster Components
+Managing Application Logs
+Atova Technology
+Application Lifecycle Management
+Rolling Updates and Rollback
+Commands and Arguments in Docker
+Commands and Arguments in Kubernetes
+Configure Environment Variables in Applications
+Multi Containers PODs
+Cluster Maintenance
+OS Upgrades
+Kubernetes Software Versions
+Cluster Upgrade Introduction
+Backup and Restore Methods
+Working With ETCDCTL
+Security
+Kubernetes Security Primitives
+Authentication
+TLS Certificates & TLS in Kubernetes
+TLS in Kubernetes Certificate Creation
+View Certificate Details & Certificate API
+kubeconfig
+Managing K8s Role Based Access Control (RBAC)
+Controlling Access in Kubernetes with RBAC
+Creating ServiceAccounts
+Inspecting Pod Resource Usage
+Storage Introduction to Docker Storage
+Storage in Docker
+Container Storage
+Volumes, Persistent Volumes & Persistent Volume Claims
+Using PVC in PODs
+Storage Class
+Networking
+Cluster Networking
+Pod Networking
+CNI in Kubernetes
+CNI weave
+Service Networking
+DNS in kubernetes
+CoreDNS in Kubernetes
+Ingress, Ingress Annotations and rewrite target
+Troubleshooting
+Exam Practice, Tips & Tricks
+Md Nasir uddin
+DevOps & Sr. System Administrator
+CKA,NSE4,CCNA,JNCIA,RHCSA,RHCE
+Atova Technology
+CI/CD Pipelines with Jenkins Course Outline
+Introduction
+Software Development processes
+What is Continuous Integration
+What is Continuous Delivery
+What is Continuous Deployment
+Why Jenkins
+Jenkins platform overview
+Jenkins Getting Started
+Installing Jenkins
+Running Jenkins in a Docker container
+Domain Integration via Nginx
+Credential management
+Jenkins home directory
+Jenkins Plugins and Integrations
+What are plugins
+Install, Uninstall and Update Plugins
+Jenkins Job
+Creating a Freestyle Build Job
+Build Triggers and Build Steps
+Pre-Build and Post-Build Actions
+Running New Build Job
+Setting Up Email Notifications
+SMTP Plugins and Configurations
+Jenkins with Shell Script Build System
+Pipelines
+What is a Jenkins file
+Build a Jenkins file
+Run Jenkins job to pull code from Git
+Run a Sample Pipeline
+Scripted Pipeline vs Declarative Pipeline
+Declarative Pipeline
+Jenkins Pipeline with Python Project
+Build a Multistage Pipeline
+Build Agents
+What are Build Agents
+Using an Ubuntu Server as a Build Agent
+Jenkins High availability
+Md Nasir uddin
+DevOps & Sr. System Administrator
+CKA,NSE4,CCNA,JNCIA,RHCSA,RHCE
