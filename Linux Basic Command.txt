@@ -1,0 +1,102 @@
+Red hat Basic Command
+------------------------
+1. "hostname" Cmd, To check server hostname: 				
+	[root@localhost ~]# hostname
+2. "whoami" Cmd,to check login user: 					
+	[root@localhost ~]# whoami
+3. "uname -a" cmd ,to get system identification,mainly kernel version:	
+	[root@localhost ~]# uname -a
+4. To get installed Red hat Linux Version Details:			
+	[root@localhost ~]# cat /etc/redhat-release
+5. "ip a" cmd, show ip address of the machine:				
+	[root@localhost ~]# ip a
+6. "ifconfig" cmd, to check server network interface Details:		
+	[root@localhost ~]# ifconfig
+7. "ping" cmd, check connectivity to the server:				
+	[root@localhost ~]# ping 8.8.8.8  
+   to check specific number of ping :					
+	[root@localhost ~]# ping -c 10 8.8.8.8
+8. "ls" cmd, list of file & Directory:					
+	[root@localhost ~]# ls
+9. "ls -a"to chek hidden file & folder:						
+	[root@localhost ~]# ls -a
+10. "pwd" cmd,to check present working Directory:				
+	[root@localhost ~]# pwd
+11. "ls -R" cmd,to shows all the files not only in directories but also sub directories
+	[root@localhost ~]# ls -R
+12. "ls -la" cmd, to check all files and folders with associated permission:
+	[root@localhost ~]# ls -la
+13. "ll" cmd,to check long List:
+	[root@localhost ~]# ll
+14. "cd" cmd, Change directory to use working directory location:
+	[root@localhost ~]# cd home
+    "cd .." cd double dot cmd,go to parent direcory: 
+	[root@localhost Documents]# cd ..
+    "cd" cmd for, go to home directory from anywhere:
+	[root@localhost home]# cd
+    "cd -" cmd for,go to previous directory:
+	[root@localhost sakib]# cd -
+15."touch" cmd to create new or blank file:
+	[root@localhost Documents]# touch kibria1  [touch file_name]
+16."echo" cmd, there are various use of echo cmd:
+	[root@localhost Documents]# echo 'this is the newfile of kibria2'>>kibria2
+
+*In echo command ">>" use to append content into the file
+*In echo command ">" use to add content fo the file by deleting/replacing existing content
+
+17."cat" cmd, short from of concatenate used to read a file or add new file or replace content of one files to another file:
+	[root@localhost Documents]# cat > kibria4  [create a new file with content]
+				how r u kibria     [then press ctrl+d]
+	[root@localhost Documents]# cat kibria4    [read a file]
+				how r u kibria  
+18. "mv"cmd For renaming file or change file name or change one to another directory:
+	[kibria@localhost Music]$ mv Document Doc_file 				[Change File name Document to Doc_file]
+	[kibria@localhost Music]$ mv /home/kibria/kibria1 /home/kibria/Music	[kibria1 file move kibria to Music directory]
+19. "rm" cmd for Delete or Remove file: 
+	[kibria@localhost Music]$ rm Doc_file					[Delete Doc_File from Music Directory]
+20. "mkdir" cmd for Create Directory: 	
+	[kibria@localhost Music]$ mkdir newfolder
+	[kibria@localhost Music]$ ls
+	newfolder
+21.To Creare two or more directory by a single cmd: 
+	[kibria@localhost Music]$ mkdir newfolder1 newfolder2 newfolder3.....
+22.To Create directory recursively: 
+	[kibria@localhost ~]$ mkdir -p folder3/subfolder1/subfolder2/subfolder3
+23."rmdir" Delete Empty Directory: 
+	[kibria@localhost Documents]$ rmdir folder33
+24."rm -rf" cmd for delete Forcely:
+	[kibria@localhost ~]$ rm -rf Videos
+25. "cp" command, to copy file or directory:
+	[kibria@localhost ~]$ cp 2 folder3   					[file 2 copy into folder3]
+	[kibria@localhost folder3]$ cp /home/kibria/folder3/2 /home/kibria	[copy file one to another directory]
+    **to copy directory/folder we have to use cp with (-R) option
+26. "mv" command,to move file or directory:
+	[kibria@localhost ~]$ mv /home/kibria/1M-D /home/kibria/folder3/
+27. "free -h" command ,to see system memory usages:
+	[kibria@localhost folder3]$ free -h
+28."df -h" command,to see system memory usages:
+	[kibria@localhost folder3]$ df -h
+29."grep" command use to see specific file/package/folder etc:
+   	[kibria@localhost ~]$ ll | grep folder3					[grep file or folder name]
+30."su" command use to switch user:
+	[kibria@localhost ~]$ su root
+	password:
+	[root@localhost kibria]# su kibria
+	[kibria@localhost ~]$
+31.To get help on any command that you do not understand, you can type:
+	[kibria@localhost ~]$ man cd
+32."history" cmd to show previous command:
+	[kibria@localhost ~]$ history
+33."Clear" Command, Used to clean terminal window,
+	[kibria@localhost ~]$ clean
+34."exit" cmd to logout terminal:
+	[kibria@localhost ~]$ exit
+	logout
+35."tree" cmd used to show file & Directory in tree mode:
+	[kibria@localhost ~]$ tree
+36."head" cmd to show 10 line in a file of upper side:
+	[root@localhost etc]# head /etc/passwd
+	[root@localhost etc]# head -5 /etc/passwd				[head -n /etc/passwd]
+37. "tail" cmd to show 10 line in a file of lower side:
+	[root@localhost etc]# tail /etc/passwd
+	[root@localhost etc]# tail -7 /etc/passwd				[tail -n /etc/passwd]
