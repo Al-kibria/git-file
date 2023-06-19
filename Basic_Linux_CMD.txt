@@ -49,3 +49,35 @@ Linux Commands Must Know as a #linux admin:-
 45. top – View active processes live with their system usage
 46. useradd and usermod – Add new user or change existing users data
 47. passwd – Create or update passwords for existing users
+48. How to create LVM Partition:
+Step 1)  Identity Disk and Create Physical Volume (PV)
+    $ sudo fsdik -l
+    $ sudo pvcreate /dev/sdb
+    Physical volume "/dev/sdb" successfully created.
+    $ sudo apt install lvm2 -y
+    $ sudo pvscan
+    Or
+    $ sudo pvs
+    Or
+    $ sudo pvdisplay /dev/sdb
+    Step 2) Create Volume Group (VG):
+    $ sudo vgcreate vg01 /dev/sdb
+    Volume group "vg01" successfully created
+    $ sudo vgscan
+    Or
+    $ sudo vgs
+    Or
+    $ sudo vgdisplay vg01
+    Step 3) Create Logical volume (LV) from Volume Group (VG):
+    $ sudo lvcreate -L 9.99G -n lv01 vg01
+      Rounding up size to full physical extent 9.99 GiB
+      Logical volume "lv01" created.
+    Step 4) Format LVM partition:
+    $ sudo mkfs.ext4 /dev/vg01/lv01
+    $ sudo mkdir /data
+    $ sudo mount /dev/vg01/lv01  /data
+
+    $ sudo df -Th /data
+      Filesystem                            Type    Size     Used    Avail    Use%    Mounted on
+      /dev/mapper/vg01-lv01     ext4    9.8G     37M     9.3G    1%       /data
+    $ echo '/dev/vg01/lv01  /data  ext4  defaults 0 0' | sudo  tee -a /etc/fstab
