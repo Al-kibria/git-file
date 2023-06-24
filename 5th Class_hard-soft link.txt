@@ -1,0 +1,20 @@
+5th class off linux:
+hard link/soft link/nginix 
+
+exit
+    2  clear
+    3  cd /var/link/
+    4  ll
+    5  vim hardlink.txt 
+    6  vim softlink.txt 
+    7  ll
+    8  ln /var/link/hardlink.txt /var/expose/hard-link.txt
+    9  ln -s /var/link/softlink.txt /var/expose/
+   10  ll
+   11  rm hardlink.txt 
+   12  ll
+   13  rm softlink.txt 
+   14  ll
+   15  pwd
+   16  exit
+   17  history
